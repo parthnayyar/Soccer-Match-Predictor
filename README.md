@@ -20,6 +20,7 @@ Initial data included the following features:
 - Home goals
 - Away goals
 - Full time result
+  
 This dataset was processed in the following ways:
 - Conversion of columns to appropriate data types
 - Addition of "date_int" column representing a float value for the date
