@@ -283,7 +283,7 @@ session = tf.compat.v1.Session(config=config)
 tf.compat.v1.keras.backend.set_session(session)
 
 
-# In[611]:
+# In[ ]:
 
 
 # train all teams models
@@ -556,3 +556,4 @@ print(actual_new.count(1))
 print("Prediction", end=": ")
 print(predictions_new.count(0), end=" ")
 print(predictions_new.count(1))
+
