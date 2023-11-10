@@ -1,4 +1,4 @@
-# Premier League Match Predictor
+# Soccer (Premier League) Match Predictor
 
 ## Overview
 This project is a Python-based application that utilizes neural networks (keras, tensorflow, scikit-learn, pandas, numpy) to predict the outcomes of Premier League matches. It uses historical match data from the 1995-96 season to train a multiple neural network models, which are later combined. This model can be used to make predictions for upcoming matches with an **accuracy of 61%**.
@@ -25,10 +25,8 @@ This dataset was processed in the following ways:
 - Conversion of columns to appropriate data types
 - Addition of "date_int" column representing a float value for the date
 - Normalization of "date_int" column to deal with large values
-- Categorized team names and assigned them integer codes using one-hot encoding
-- Replaced teams' string values with encoded integers
-- Initial dataset included a row representing match details
-- Created a dataset for each team, containing all matches played by that team (home and away):
+- Assigned them integer codes using label encoding and performed one-hot encoding
+- Initial dataset included a row representing match details. This was transformed to create a dataset for each team, containing all matches played by that team (home and away) containing the following features:
   - Date_int (normalized date in float)
   - Venue (home/away)
   - Opponent
