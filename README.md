@@ -26,7 +26,7 @@ This dataset was processed in the following ways:
 - Addition of "date_int" column representing a float value for the date
 - Normalization of "date_int" column to deal with large values
 - Assigned them integer codes using label encoding and performed one-hot encoding
-- Initial dataset included a row representing match details. This was transformed to create a dataset for each team, containing all matches played by that team (home and away) containing the following features:
+- Initial dataset included rows representing features for each match played. This was transformed to create a dataset for each team, containing all matches played by that team (home and away) containing the following features:
   - Date_int (normalized date in float)
   - Venue (home/away)
   - Opponent
